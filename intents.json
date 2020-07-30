@@ -1,0 +1,106 @@
+{"intents": [
+		{"tag": "1",
+         "patterns": ["1"],
+         "responses": ["Satisfied :)"],
+         "link": "",
+         "context": [""]
+        },
+        {"tag": "2",
+         "patterns": ["2"],
+         "responses": [":( Not Satisfied"],
+         "link": "",
+         "context": [""]
+        },
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day", "Hii"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "link": "",
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "until next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "link": "",
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "link": "",
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "link": "",
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can council you on how could one go through the process of taking stream", "Offering support for Education Council, Providing Guidance on Stream, Details on Documents needed during admissions"],
+         "link": "",
+         "context": [""]
+        },             
+        {"tag": "Stream_details_search",
+         "patterns": ["What are the streams to pursue after 10th", "List of Streams offered by colleges","I want to search for details about stream", "Stream details for Admission", "Load stream details", "Show stream details for admission"],
+         "responses": ["These are the streams: S-> Science C-> Commerce A-> Arts. Please provide the Stream Letter"],
+         "link": "",
+         "context": ["search_stream_details_by_stream_name"]
+        },
+        {"tag": "Science",
+         "patterns": ["S"],
+         "responses": ["Science is one of the top fields of today that has continually gained recognition due to discovery and invention. Science is one of the most interesting subjects anyone can ever take in his entire school life. It enables you to let your curiosity loose and be able to discover many things in this world you never knew existed. Curiosity and desire for improvement of life has lead many people to incline towards science and eventually become experts in this field."],
+         "link" : "href = 'https://www.isd622.org/cms/lib07/MN01001375/Centricity/Domain/210/ListofFieldsofScience.pdf'",
+         "context": [""]       	 
+        },
+        {"tag": "Commerce",
+         "patterns": ["C"],
+         "responses": ["Commerce as a stream of education can be defined as a study of trade and business activities such as the exchange of goods and services from producer to final consumer. The main subjects that are taught in the Commerce stream in Class 11 and 12 include Economics, Accountancy and Business Studies. Choose this field if you have a genuine interest in these subjects and have an affinity for numbers, the economy and business!"],
+         "link": "href = https://www.indiaeducation.net/cbse/class-10/importance-of-commerce-stream.aspx",
+         "context": [""]       	 
+        },
+        {"tag": "Arts",
+         "patterns": ["A"],
+         "responses": ["Arts stream offers numerous career options and opportunities to students. It is a very traditional stream. This is one of the main reasons why this stream still has got takers in India! This stream is made up of parts like humanities, visual arts, performing arts, literary arts etc."],
+         "link": "href = https://www.coursesafter10th.com/arts/arts-stream/",
+         "context": [""]       	 
+        },        
+        {"tag": "Science_details",
+         "patterns": ["What are the carrier option in the science stream", "what can one do by taking this science stream", "Provide details about science stream" ],
+         "responses": ["In this stream you can go for being a Doctor, Engineer, etc."],
+         "link": "",
+         "context": ["search_pharmacy_by_name"]
+        },        
+        {"tag": "college_search",
+         "patterns": ["Lookup for colleges", "Search for colleges to enquire about admissions details", "I want to search college data", "College lookup for students", "Looking up college details" ],
+         "responses": ["Please provide college name or location"],
+         "link": "",
+         "context": ["search_college_by_area_name"]
+        },
+        {"tag": "CH",
+         "patterns": ["Chembur"],
+         "responses": ["\nDr. Babasaheb Ambedkar College of Arts, Science and Commerce\nVivekanand Education Society's College of Arts Science and Commerce"],
+         "link": "",
+         "context": ["search_college_by_type"]
+        },
+        {"tag": "MT",
+         "patterns": ["Matunga"],
+         "responses": ["\nRamnivas Ruia Junior College\nD. G. Ruparel College of Arts, Science and Commerce"],
+         "link": "",
+         "context": ["search_college_by_type"]
+        },
+        {"tag": "VD",
+         "patterns": ["Vidyavihar"],
+         "responses": ["\nK.J. Somaiya College of Arts and Commerce\nhref = https://kjsac.somaiya.edu/en\nK. J. Somaiya College of Science and Commerce\nhref = https://kjssc.somaiya.edu/kjssc/\nS. K. Somaiya Vinay Mandir Junior College\nhref = https://sksvmjc.somaiya.edu/sksvmjc/"],
+         "link": "",
+         "context": ["search_college_by_type"]
+        },
+        {"tag": "126",
+         "patterns": ["Shah and Anchor Kutchhi Engineering College","Sakec","Mahavir Education Trust"],
+         "responses": ["\nUndergraduate Program Sanctioned Intake\nElectronics Engineering\t\t\t\t120\nComputer Engineering\t\t\t\t180\nInformation Technology\t\t\t\t120\nElectronics and Telecommunications\t\t\t60\nPostgraduate Programs Sanctioned Intake\nElectronics Engineering\t\t\t\t18\nComputer Engineering\t\t\t\t18\nInformation Technology\t\t\t\t18"],
+         "link": "",
+         "context": ["search_college_by_type"]
+        }            
+   ]
+}
+
